@@ -34,9 +34,10 @@ nextPage: 使用PostgreSQL代替Mysql.html
 #### Linux
 
 1. 根据这个步骤安装 docker [install instructions](https://docs.docker.com/installation/)
-2. 使用这个命令启动你的 Huginn 容器 `docker run -it -p 3000:3000 cantino/huginn`
-3. 在浏览器里面打开 Huginn [http://localhost:3000](http://localhost:3000)
-4. 使用默认帐号密码登录 Huginn 网站
+2. 拉取 / 更新镜像`docker pull cantino/huginn`
+3. 使用这个命令启动你的 Huginn 容器 `docker run -it -p 3000:3000 cantino/huginn`
+4. 在浏览器里面打开 Huginn [http://localhost:3000](http://localhost:3000)
+5. 使用默认帐号密码登录 Huginn 网站
 
 ## 配置和连接到数据库容器
 
